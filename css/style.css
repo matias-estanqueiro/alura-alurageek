@@ -1,0 +1,246 @@
+/* -------------------------------------------------------- */
+/*                         Bases                            */
+/* -------------------------------------------------------- */
+body{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+input, textarea {
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid #A2A2A2;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: 'Raleway', sans-serif;
+}
+
+.button{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    font-weight: 500;
+    border: 1px solid #2A7AE4;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* -------------------------------------------------------- */
+/*                         HEADER                           */
+/* -------------------------------------------------------- */
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+.header__navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar-logo{
+    width: 100px;
+}
+
+.header__navbar-button{
+    color: #2A7AE4
+}
+
+/* -------------------------------------------------------- */
+/*                         FOOTER                           */
+/* -------------------------------------------------------- */
+.footer{
+    width: 100%;
+    margin: 20px auto 5px;
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+ 
+.footer__logo{
+    margin-top: 15px;
+}
+
+.footer__links__list-item{
+    margin: 20px 0;
+    text-align: center;
+}
+ 
+.footer__links__list-link{
+    font-weight: 600;
+    color: #464646;
+}
+
+.footer__contact{
+    width: 90%;
+}
+
+.footer__contact-title{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #464646;
+}
+
+.footer__contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer__contact__form-input{
+    height: 25px;
+}
+
+.footer__contact__form-button{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+.footer__contact__form-textarea{
+    resize: none;
+}
+
+.footer__info{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------- */
+/*                          MAIN                            */
+/* -------------------------------------------------------- */
+/* Banner */
+.main__banner{
+    background-image: url("/img/banner.webp");
+    box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.8);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.main__banner__info{
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.main__banner__info-title{
+    margin-bottom: 20px;
+}
+
+.main__banner__info-text{
+    font-size: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main__banner__info-button{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+/* Products */
+.main__products{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.main__products__bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 10px 0;
+}
+
+.main__products__bar-text{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2A7AE4;
+}
+
+.main__products__card{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #2A7AE4;
+    display: flex;
+    align-items: center;
+}
+
+.main__products__card-img{
+    width: 120px;
+    height: 120px;
+    /* background-position: center;
+    background-size: cover; */
+}
+
+.main__products__card-info{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.main__products__card-title{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main__products__card-price{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main__products__card-price:before{
+    content: "USD $";
+}
+
+.main__products__card-link{
+    font-weight: 700;
+    font-size: 14px;
+    color: #2A7AE4;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
