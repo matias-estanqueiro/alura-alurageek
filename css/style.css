@@ -69,7 +69,7 @@ input::placeholder, textarea::placeholder{
 /* -------------------------------------------------------- */
 .footer{
     width: 100%;
-    margin: 20px auto 5px;
+    padding: 20px auto 5px;
     background-color: #EAF2FD;
     display: flex;
     flex-direction: column;
@@ -125,6 +125,7 @@ input::placeholder, textarea::placeholder{
     background-color: #FFFFFF;
     width: 100%;
     padding: 30px 0;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -196,6 +197,7 @@ input::placeholder, textarea::placeholder{
     border: 1px solid #2A7AE4;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .main__products__card-img{
@@ -236,11 +238,90 @@ input::placeholder, textarea::placeholder{
     cursor: pointer;
 }
 
+/* -------------------------------------------------------- */
+/*                         LOGIN                            */
+/* -------------------------------------------------------- */
+.main__login{
+    background-color: #F5F5F5;
+}
 
+.form__login{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 0;
+}
 
+.form__login-title{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
 
+.form__login-input{
+    margin: 15px 0;
+}
 
+.form__login-button{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    margin: 15px auto 0;
+}
 
+/* -------------------------------------------------------- */
+/*                     PRODUCTS ALL                         */
+/* -------------------------------------------------------- */
+.main__all__products{
+    background-color: #F5F5F5;
+    padding-bottom: 5px;
+}
 
+.all__products{
+    width: 90%;
+    margin: 0 auto;
+}
 
+.all__products__bar{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.all__products__bar-button{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+/* -------------------------------------------------------- */
+/*                     PRODUCTS ADD                         */
+/* -------------------------------------------------------- */
+.main__add__product{
+    background-color: #F5F5F5;
+    padding-bottom: 5px;
+}
+
+.add__product__form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    gap: 5px;
+}
+
+.form__add__product-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.form__add__product-button{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
