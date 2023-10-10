@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "title": "Stormtropper Cup",
+            "price": "100.00",
+            "category": "Star-Wars",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima facilis asperiores nam et. Neque aut quas ipsum est at facere sequi error provident natus sed dolorum, distinctio labore perspiciatis corporis. Quia facere exercitationem maxime tempora labore odit aliquam cumque ducimus aperiam, consequatur repudiandae consequuntur possimus, deleniti ipsum officia nostrum corporis optio. Rerum perspiciatis, dolor quod deleniti eaque nemo necessitatibus recusandae?",
+            "ean13": "7792001703372",
+            "picture": "/img/sw1.webp"
+        },
+        {
+            "id": "2",
+            "title": "Imperial LEGO",
+            "price": "500.00",
+            "category": "Star-Wars",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima facilis asperiores nam et. Neque aut quas ipsum est at facere sequi error provident natus sed dolorum, distinctio labore perspiciatis corporis. Quia facere exercitationem maxime tempora labore odit aliquam cumque ducimus aperiam, consequatur repudiandae consequuntur possimus, deleniti ipsum officia nostrum corporis optio. Rerum perspiciatis, dolor quod deleniti eaque nemo necessitatibus recusandae?",
+            "ean13": "7791494307180",
+            "picture": "/img/sw2.webp"
+        },
+        {
+            "id": "3",
+            "title": "XBOX One Joystick",
+            "price": "200.00",
+            "category": "Video-Game",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima facilis asperiores nam et. Neque aut quas ipsum est at facere sequi error provident natus sed dolorum, distinctio labore perspiciatis corporis. Quia facere exercitationem maxime tempora labore odit aliquam cumque ducimus aperiam, consequatur repudiandae consequuntur possimus, deleniti ipsum officia nostrum corporis optio. Rerum perspiciatis, dolor quod deleniti eaque nemo necessitatibus recusandae?",
+            "ean13": "7791115150591",
+            "picture": "/img/c1.webp"
+        },
+        {
+            "id": "4",
+            "title": "PlayStation 5",
+            "price": "1000.00",
+            "category": "Video-Game",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima facilis asperiores nam et. Neque aut quas ipsum est at facere sequi error provident natus sed dolorum, distinctio labore perspiciatis corporis. Quia facere exercitationem maxime tempora labore odit aliquam cumque ducimus aperiam, consequatur repudiandae consequuntur possimus, deleniti ipsum officia nostrum corporis optio. Rerum perspiciatis, dolor quod deleniti eaque nemo necessitatibus recusandae?",
+            "ean13": "7792037591301",
+            "picture": "/img/c2.webp"
+        },
+        {
+            "id": "5",
+            "title": "ATARI Towel",
+            "price": "50.00",
+            "category": "Geek",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima facilis asperiores nam et. Neque aut quas ipsum est at facere sequi error provident natus sed dolorum, distinctio labore perspiciatis corporis. Quia facere exercitationem maxime tempora labore odit aliquam cumque ducimus aperiam, consequatur repudiandae consequuntur possimus, deleniti ipsum officia nostrum corporis optio. Rerum perspiciatis, dolor quod deleniti eaque nemo necessitatibus recusandae?",
+            "ean13": "7791737583814",
+            "picture": "/img/d1.webp"
+        },
+        {
+            "id": "6",
+            "title": "Joystick T-Shirt",
+            "price": "20.00",
+            "category": "Geek",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima facilis asperiores nam et. Neque aut quas ipsum est at facere sequi error provident natus sed dolorum, distinctio labore perspiciatis corporis. Quia facere exercitationem maxime tempora labore odit aliquam cumque ducimus aperiam, consequatur repudiandae consequuntur possimus, deleniti ipsum officia nostrum corporis optio. Rerum perspiciatis, dolor quod deleniti eaque nemo necessitatibus recusandae?",
+            "ean13": "7798499973556",
+            "picture": "/img/d2.webp"
+        }
+    ]
+}
